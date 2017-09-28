@@ -11,11 +11,11 @@
 ### 1. 设置 Icon 和 LaunchImage （不包括 iPad）
 
 ##### Icon 命名规范
-```
+```objc
 Icon-60@3x.png  // for iPhone 6 plus
 ```
 ##### LaunchImage 命名规范
-```
+```objc
 // for iPhone X（1125 x 2436） - iPhone X（查阅了官方文档也没有发现命名规范，暂且以此命名）
 LaunchImage-812h@3x.png 
 
@@ -39,7 +39,7 @@ Default@2x.png
 ```objc
 key : OS_ACTIVITY_MODE    value : disable
 ```
-
+![消除打印警告](https://github.com/Mayan29/MYNewProject/blob/master/Data/Pic01.png)
 
 ### 3. Info.plist 权限设置
 ```objc
@@ -48,15 +48,7 @@ key : NSAppTransportSecurity    value : NSAllowsArbitraryLoads
 ```
 
 ### 4. 设置文件夹
-
-
-
-
-
-
+![设置文件夹](https://github.com/Mayan29/MYNewProject/blob/master/Data/Pic02.png)
 
 ### 5. 添加 pch
-
-
-
-
+![添加 pch](https://github.com/Mayan29/MYNewProject/blob/master/Data/Pic03.png)

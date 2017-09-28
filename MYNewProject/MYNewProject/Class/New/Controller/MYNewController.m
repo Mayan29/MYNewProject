@@ -20,6 +20,7 @@
 
     self.title = @"发新帖";
     self.navigationItem.leftBarButtonItem = [UIBarButtonItem my_itemWithTarget:self action:@selector(back) image:@"back_btn_nor" higImage:@"back_btn_hig"];
+    self.view.backgroundColor = [UIColor lightGrayColor];
 }
 - (void)back
 {

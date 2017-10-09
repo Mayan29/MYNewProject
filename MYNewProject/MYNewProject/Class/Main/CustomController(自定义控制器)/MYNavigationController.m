@@ -77,4 +77,11 @@
 }
 
 
+#pragma mark - 控制器状态栏的颜色
+- (UIViewController *)childViewControllerForStatusBarStyle
+{
+    return self.topViewController;
+}
+
+
 @end

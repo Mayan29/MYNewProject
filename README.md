@@ -45,6 +45,9 @@ key : OS_ACTIVITY_MODE    value : disable
 ```objc
 // 开启下载
 key : NSAppTransportSecurity    value : NSAllowsArbitraryLoads
+
+// 改变状态栏颜色
+key : UIViewControllerBasedStatusBarAppearance    value : YES
 ```
 
 ### 4. 设置文件夹
